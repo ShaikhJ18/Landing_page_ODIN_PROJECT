@@ -47,12 +47,12 @@ h1{
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 .p-first{
     font-size: 18px;
     color: white;
-    margin-left: 90px;
+    margin-left: 0px;
 }
 img{
     margin: 50px;
@@ -64,5 +64,33 @@ img{
     height: 40px;
     border: 1px #3882F6;
     border-radius: 10px;
-
+    margin-top: 10px;
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.row-of-boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    justify-content: space-between;
+}
+.box-blue{
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.second-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p-second{
+    text-align: center;
+    font-size: 18px;
+    
 }
