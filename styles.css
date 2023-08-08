@@ -21,7 +21,7 @@ ul{
     display: flex;
     flex-direction: row;
 }
-.navigationbar-right.navigationbar-right{
+.navigationbar-right,.navigationbar-right{
     display: flex;
     width: 50%;
     justify-content: center;
@@ -31,4 +31,38 @@ h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+}
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 150px;
+}
+.p-first{
+    font-size: 18px;
+    color: white;
+    margin-left: 90px;
+}
+img{
+    margin: 50px;
+}
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+
 }
