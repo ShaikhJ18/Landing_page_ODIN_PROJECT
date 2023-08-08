@@ -92,5 +92,23 @@ h2{
 .p-second{
     text-align: center;
     font-size: 18px;
-    
+
+}
+.third-block{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+.p-third{
+    font-size: 18px;
+    text-align:end;
 }
